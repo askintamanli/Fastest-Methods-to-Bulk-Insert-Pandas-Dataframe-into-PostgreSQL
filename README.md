@@ -2,10 +2,15 @@
  Hello everyone. There are too ways to load data (pandas dataframe) to databases. We are going to compare ways to load pandas dataframe into database. We are going to use PostgreSQL (Local host and version: 16.1) for database.
 
 Methods from fastest to slowest:
+
 1– df.to_sql with method=callable (7.84 seconds)
+
 2- copy_expert and csv ( 8.15 seconds)
+
 3- 25.75 seconds (9.12 seconds)
+
 4- execute_values (25.75 seconds)
+
 5- df.to_sql (30.48 seconds)
 
 If you want to work with me, firstly you should create a table in postgres database
