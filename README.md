@@ -14,6 +14,7 @@ Methods from fastest to slowest:
 5- df.to_sql (30.48 seconds)
 
 If you want to work with me, firstly you should create a table in postgres database
+```
  CREATE TABLE test (
     master_id UUID ,
     order_channel VARCHAR(50),
@@ -28,3 +29,4 @@ If you want to work with me, firstly you should create a table in postgres datab
     customer_value_total_ever_online DECIMAL(10, 2),
     interested_in_categories_12 VARCHAR(100)
 );
+```
